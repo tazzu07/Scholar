@@ -13,30 +13,10 @@
         padding: 4rem 1rem;
     }
 
-    /* contact page */
-    .form-section{
-        padding: 7rem;
-    }
-    .contact .get-in-touch .card {
-        padding: 1rem;
-    }
-
-
 }
 
 /* Media Query 991px */
 @media (max-width:991.5px) {
-
-    /* 01 Navbar CSS */
-    .header .navbar-collapse {
-        padding: 2rem;
-    }
-
-    .header .navbar-nav .nav-link {
-        padding: 0.6rem 0.5rem;
-        margin-bottom: 2rem;
-
-    }
 
     /* banner */
     .banner-wrapper {
@@ -68,11 +48,6 @@
 /* Media Query 767px */
 @media (max-width:767.5px) {
 
-    /* General CSS */
-    body,
-    html {
-        font-size: 8px;
-    }
      /* banner */
      .banner-wrapper {
         min-height:550px;
@@ -119,19 +94,6 @@
         margin-top: 35vh;
     }
 
-    /* footer  */
-
-    .link-widget a img{
-        width: 30px;
-        height: 30px;
-    }
-    /* contact page */
-    .form-section {
-        padding: 2rem;
-    }
-    .contact .get-in-touch .card {
-        min-height: 254px;
-    }
 }
 
 /* Media Query 380px */
