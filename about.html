@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCHOLAR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <style>
+        /*  Banner Section */
+        .banner-wrapper {
+            margin-top: em;
+            background-color: #1B153E;
+            width: 100%;
+            height: auto;
+            padding-bottom: 5rem;
+
+        }
+
+        /* parallax-effetct */
+
+        .parallax {
+            position: relative;
+            background-position: left;
+            background-size: 48%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            display: inline-block;
+            align-items: center;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .parallax-1 {
+            position: relative;
+            background-position: right;
+            background-size: 48%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            display: inline-block;
+            align-items: center;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .parallax-main {
+            position: relative;
+            background-position: right;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            display: inline-block;
+            align-items: center;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .parallax.img1 {
+            background-image: url('images/banner3.jpg');
+            background-size: cover;
+            height: 100%;
+
+        }
+
+        .parallax.img2 {
+            background-image: url('images/kampus.jpg');
+            height: 608px;
+        }
+
+        .parallax.img3 {
+            background-image: url('images/library.jpg');
+            height: 608px;
+        }
+
+        .parallax.img4 {
+            background-image: url('images/classroom.jpg');
+            height: 608px;
+        }
+
+        /* About CSS */
+        .main-wrapper {
+            margin-top: 80vh;
+            background-color: #1B153E;
+            width: 100%;
+        }
+
+        .main-wrapper .black-card {
+            position: absolute;
+            top: 25%;
+            left: -400px;
+            width: calc(100% - 20%);
+            box-shadow: var(--box-shadow);
+            border-radius: 2.5rem;
+            background-color: black;
+            padding: 2.5rem;
+            text-align: left;
+            z-index: 1;
+        }
+
+        .main-wrapper .black-card.right {
+            right: -400px;
+            left: unset;
+        }
+
+        .row {
+            margin-right: 0 !important;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark ">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold w-20" href="#"> <img src="img/1.png " alt="" height="41px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Program & Courses
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="program.html">Graduate</a></li>
+                            <li><a class="dropdown-item" href="#">Under Graduate</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#"> Admission</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="artical.html">Article</a>
+                    </li>
+                   
+                </ul>
+                <ul class="navbar-nav sm-icons">
+                    <li><a class="nav-link" href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a class="nav-link" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a class="nav-link" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a class="nav-link" href="#"><i class="fa-solid fa-envelope"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Banner Section Start-->
+    <section class="banner-wrapper wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-5 order-lg-1 order-2 text-white pt-5">
+                    <div>
+                        <h2 class="pt-5">
+                            LET'S WORK TOGETHER TO <span><br class="d-none d-xl-block"> BRING YOUR VISION TO LIFE</span>
+                        </h2>
+                        <p>Best Vision is a renowned full service marketing agency based in Toronto, with the sole goal
+                            of bringing your vision to life and helping your ideas grow.</p>
+                        <p>Our main services consist of Web Design and Development, Branding, Social Media Marketing,
+                            and Advertising. We offer solutions that are innovative and custom tailored for you and your
+                            business.</p>
+                        <p>Our main services consist of Web Design and Development, Branding, Social Media Marketing,
+                            and Advertising. We offer solutions that are innovative and custom tailored for you and your
+                            business.</p>
+                        <p class="mt-5">Let's get started!</p>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-5 order-lg-2 order-1">
+                    <div>
+                        <img src="images/banner.1.jpg" class="img-fluid pt-5">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner Section Exit -->
+
+    <!-- Services Section Start-->
+    <section class="parallax parallax-main img1 text-white">
+        <div class="main-wrapper wrapper">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-12">
+                        <div class="sec-title text-white mt-5 pt-5">
+                            <h1> Know About Us <span> More</span></h1>
+                            <h4>For every business goal</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid px-lg-0">
+                <div class="row">
+                    <div class="offset-lg-6 col-lg-6 offset-md-4 col-md-8 mb-5 mb-lg-0">
+                        <div class="parallax parallax-1 img2">
+                            <div class="card black-card text-white">
+                                <h3> OUR CAMPUS</h3>
+                                <h5>DESIGNED WITH INNOVATION</h5>
+                                <p>Our award-winning designers are here to create the perfect online presence for you.
+                                    We bring experience as well as a design that stands out to all websites we create
+                                    for brands both large and small.</p>
+                                <a href="#" class="view-link">Learn More <img src="images/arrow.svg" class="ms-4"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-8 mb-5 mb-lg-0">
+                        <div class="text-end parallax img3">
+                            <div class="card right black-card text-white">
+                                <h3> OUR LIBRARY</h3>
+                                <h5>STAND OUT AND SUCCEED</h5>
+                                <p>Our award-winning designers are here to create the perfect online presence for you.
+                                    We bring experience as well as a design that stands out to all websites we create
+                                    for brands both large and small.</p>
+                                <a href="#" class="view-link">Learn More <img src="images/arrow.svg" class="ms-4"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="offset-lg-6 col-lg-6 offset-md-4 col-md-8  mb-5 mb-lg-0">
+                        <div class="text-end parallax parallax-1 img4">
+                            <div class="card black-card text-white">
+                                <h3> OUR STUDY AREA</h3>
+                                <h5>PAY-PER-CLICK (PPC)</h5>
+                                <p>Our award-winning designers are here to create the perfect online presence for you.
+                                    We bring experience as well as a design that stands out to all websites we create
+                                    for brands both large and small.</p>
+                                <a href="#" class="view-link">Learn More <img src="images/arrow.svg" class="ms-4"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+    <!--Services Section Exit-->
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="container overflow-hidden">
+            <div class="row gy-3 gy-md-5 gy-xl-0 align-items-sm-center">
+                <div class="col-xs-12 col-sm-6 col-xl-3 order-0 order-xl-0">
+                    <div class="footer-logo-wrapper text-center text-sm-start">
+                        <a href="#!">
+                            <img src="img/1.png" alt="BootstrapBrain Logo" width="175" height="57">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-xl-6 order-2 order-xl-1">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item ">
+                            <a class="nav-link link-dark px-2 px-md-3 text-white" href="#!">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-secondary px-2 px-md-3 text-white" href="#!">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-secondary px-2 px-md-3 text-white" href="#!">Program</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-secondary px-2 px-md-3 text-white" href="#!">Article</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-secondary px-2 px-md-3 text-white" href="#!">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-xl-3 order-1 order-xl-2">
+                    <div class="social-media-wrapper">
+                        <ul class="list-unstyled m-0 p-0 d-flex justify-content-center justify-content-sm-end">
+                            <li class="me-3">
+                                <a href="#!" class="link-white link-opacity-75-hover">
+                                    <i class="fa-brands fa-facebook" aria-hidden="true" width="24" height="24"></i>
+                                </a>
+                            </li>
+                            <li class="me-3">
+                                <a href="#!" class="link-white link-opacity-75-hover">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="me-3">
+                                <a href="#!" class="link-white link-opacity-75-hover">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a href="#!" class="link-white link-opacity-75-hover">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container overflow-hidden">
+            <div class="row">
+                <div class="col">
+                    <div class="footer-copyright-wrapper text-center">
+                        &copy; 2024. All Rights Reserved.
+                    </div>
+                    <div class="credits text-secondary text-center mt-2 fs-8 text-white">
+                        Built by <a href="https://bootstrapbrain.com/"
+                            class="link-secondary text-decoration-none text-white">BootstrapBrain</a> with <span
+                            class="text-primary">&#9829;</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+</body>
+
+</html>
