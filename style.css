@@ -45,12 +45,15 @@ body{
 
 .section-2 {
     padding: 10rem 0 !important; }
-    @media (max-width: 991.98px) {
+    @media (max-width: 991px) {
       .section-2 {
-        padding: 3rem 0 !important; } }
+        padding: 17rem 0 !important; } }
+        @media (max-width: 990px) {
+          .section-2 {
+            padding: 7rem 0 !important; }
+        }
   
   .image-stack {
-   
     width: 100%;
     z-index: 2; }
     .image-stack img {
@@ -91,9 +94,7 @@ footer a {
 .f-about .col-md-7 p {
 	margin: 0;
 }
-footer a:hover {
-	color: #f89901;
-}
+
 footer hr {
 	width: 60px;
 	float: left;
@@ -131,7 +132,7 @@ footer hr {
 	-moz-transition: all 500ms;
 	-webkit-transition: all 500ms;
 }
-/*=-Copyright-=*/
+
 .copyright {
 	background-color: #273037;
 	padding: 15px 0;

@@ -1,68 +1,67 @@
 
-/* Media Query 1170px */
-@media (max-width:1199.5px) {
-    /* paralex */
+
+@media (max-width:1199px) {
+   
     .parallax:not(.parallax-main){
         background-size: 50%;
     }
     .main-wrapper .black-card{
         width: 100%;
     }
-    /* process */
-    .process-wrapper .process-content {
-        padding: 4rem 1rem;
+    .main-wrapper {
+        margin-top: 39vh;
     }
-
+   
 }
 
-/* Media Query 991px */
+
 @media (max-width:991.5px) {
 
-    /* banner */
+   
     .banner-wrapper {
         margin-top: 4rem;
         padding:4rem 2rem;
         min-height:730px;
     }
-    /* card */
+  
     .main-wrapper .black-card {
-        left: -226px;
+        left: -226px !important ;
     }    
     .main-wrapper .black-card.right {
-       right: -226px;
+       /* right: -226px !important ; */
+       left: 241px !important;
     }    
 
-    /* Parallax CSS */
+   
     .parallax-main{
         background-size:cover;
     }
 
-    /* contact page */
-    .contact .get-in-touch .card {
-        min-height: 350px;
+   
+    .main-wrapper {
+        margin-top: 39vh;
     }
-
 
 }
 
-/* Media Query 767px */
+
 @media (max-width:767.5px) {
 
      /* banner */
      .banner-wrapper {
         min-height:550px;
     }
-    /* card */
+ 
     .main-wrapper .black-card{
         left: 5%;
         width: 90%;
     }
     .main-wrapper .black-card.right{
-        left: 5%;
+        left: 5% !important;
         width: 90%;
     }
 
-    /* Parallax CSS */ 
+   
     .parallax:not(.main-parallax) {
         background-size:cover;
     }
@@ -70,16 +69,12 @@
         background-size: cover;
     }
 
-    /* Contact */
-    .contact .get-in-touch .card {
-        min-height: 310px;
-    }
 }
 
-/* Media Query 590px */
+
 @media (max-width:590px) {
 
-    /* General CSS */
+  
     body,
     html {
         font-size: 7px;
@@ -88,10 +83,18 @@
     .parallax.img3,
     .parallax.img4,
     .parallax.img5{
-        height: 408px;
+        height: 262px !important;
     }
     .main-wrapper {
-        margin-top: 35vh;
+        margin-top: 21vh !important;
+    }
+    .main-wrapper .black-card{
+        left: 5% !important;
+        width: 90%;
+    }
+    .main-wrapper .black-card.right{
+        left: 5% !important;
+        width: 90%;
     }
 
 }
