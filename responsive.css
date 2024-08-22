@@ -51,7 +51,7 @@
      .banner-wrapper {
         min-height:550px;
     }
- 
+   
     .main-wrapper .black-card{
         left: 5%;
         width: 90%;
@@ -68,9 +68,16 @@
     .parallax-1{
         background-size: cover;
     }
-
+    .sm-icons{
+        font-size: 2rem;
+    }
 }
-
+.banner-wrapper p{
+    font-size: 2rem;
+}
+.navbar-toggler{
+    font-size: 3.25rem;
+}
 
 @media (max-width:590px) {
 
