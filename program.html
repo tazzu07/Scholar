@@ -32,30 +32,37 @@
   background-color: #fff;
 }
 
+
   @media (max-width:1199px) {
     .main-banner {
       padding-top: 6rem !important;
     }
   }
-  /* @media (min-width: 768px) {
+ 
+@media (min-width: 768px) and (max-width:1030px){
     .col-md {
-        flex: none;
+        flex: none !important;
     }
 }
-@media (min-width: 768px) {
-    .col-md {
-        flex: none;
-    }
-} */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     .col-md {
       
         flex: none;
     }
-}
+} */
 .img-fluid {
     max-width: 100%;
-    height: 138px;
+    /* height: 138px; */
+}
+@media (min-width:320px) and (max-width:1030px){
+  #learn{
+    padding: 1rem !important;
+  }
+}
+@media (min-width:320px) and (max-width:760px){
+  .row {
+    --bs-gutter-x: 2.5rem !important;
+}
 }
 </style>
 

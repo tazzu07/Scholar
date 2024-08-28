@@ -18,11 +18,11 @@
 @media (max-width:991.5px) {
 
    
-    .banner-wrapper {
+    /* .banner-wrapper {
         margin-top: 4rem;
         padding:4rem 2rem;
         min-height:730px;
-    }
+    } */
   
     .main-wrapper .black-card {
         left: -226px !important ;
@@ -72,9 +72,9 @@
         font-size: 2rem;
     }
 }
-.banner-wrapper p{
+/* .banner-wrapper p{
     font-size: 2rem;
-}
+} */
 .navbar-toggler{
     font-size: 3.25rem;
 }
@@ -82,10 +82,10 @@
 @media (max-width:590px) {
 
   
-    body,
+     body,
     html {
         font-size: 7px;
-    }
+    } 
     .parallax.img2,
     .parallax.img3,
     .parallax.img4,
@@ -98,12 +98,20 @@
     .main-wrapper .black-card{
         left: 5% !important;
         width: 90%;
+        font-size: 12px;
+
     }
     .main-wrapper .black-card.right{
         left: 5% !important;
         width: 90%;
+        font-size: 12px;
     }
-
+.navbar-nav .dropdown-menu{
+    font-size: 14px;
+}
+.nav-item{
+    font-size: 16px;
+}
 }
 
 /* Media Query 380px */
