@@ -21,7 +21,9 @@ body{
   position: relative;
   height: 600px
 }
-
+p{
+  font-size: 16px;
+}
 .video-wrapper video {
   object-fit: cover;
   display: block;
